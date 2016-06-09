@@ -1,0 +1,16 @@
+1. //to make new local repository
+		git init
+
+2. //to create read me and adding contents to it (in double quotes contents will be written in README.md)
+	
+		echo "# safdar1024" >> README.md
+
+3.//to see the contents of the file
+		
+		cat README.md 
+
+4.//to give the list of files that you want to ignore in the project use the below command
+
+		touch .gitignore
+		gedit .gitignore
+
