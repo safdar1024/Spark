@@ -93,4 +93,6 @@ spark2-etl-examples-1.0-SNAPSHOT.jar
 ### Kindly Use this for educational purposes if you need some help kindly text me.
 If you are trying to run these examples to understand Spark, and you need data, kindly have a look at the 'data' branch
 
+Acknowledgement:
+What ever we have learn in sessions, lectures, and labs this project is the final projecrt what ever I have understood apache spark concepts, Architecture, solution design, coding style, testing approaches. 
 ___
