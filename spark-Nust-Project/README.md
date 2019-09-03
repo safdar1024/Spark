@@ -6,11 +6,7 @@ A project with examples of using few commonly used data manipulation/processing/
 
 **Programming Language**: Scala v2.11.6
 
-### About the project
-The project can be loaded in IntelliJ IDEA and the class  _org.anish.spark.etc.ProcessData_ can be directly run. This produces all the output.
-
-### Code File descriptions
-**org.anish.spark.etc.ProcessData.scala** : Main object along with all transformations and aggregations to process data. Running this object (tested in local system) should produce all the required results.
+### About the projec Spark training on local system should produce all the required results.
 The input data has the following fields: 
 ```
 member_id, name, email, joined, ip_address, posts, bday_day, bday_month, bday_year, members_profile_views, referred_by
@@ -74,7 +70,7 @@ java -cp target/spark2-etl-examples-1.0-SNAPSHOT-jar-with-dependencies.jar org.a
 ```
 
 
-### Submitting to Spark Standalone
+### Submitting to Spark Standalone you can also submit this job to aws EMR
 ```
 spark-submit --class org.anish.spark.etl.ProcessData --master local[4] \
 --jars $(find '<***lib directory with spark jars***>' -name '*.jar' | xargs echo | tr ' ' ',') \
@@ -94,7 +90,7 @@ spark-submit --class org.anish.spark.etl.ProcessData --master yarn-client \
 spark2-etl-examples-1.0-SNAPSHOT.jar
 ```
 
-### Use for educational purposes
+### Kindly Use this for educational purposes if you need some help kindly text me.
 If you are trying to run these examples to understand Spark, and you need data, kindly have a look at the 'data' branch
 
 ___
